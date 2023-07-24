@@ -6,35 +6,50 @@
 </head>
 
 <body>
-  <a href="index.html"><button class="homeButton">back to home page</button></a>
-  <p class="title">Search for plants based on conditions specific to your garden.</p>
-  <form class="subpage" id="criteriaSearch">
+  <a href="index.html" class="back-home">Home Page</a>
 
-    <h2 class="title">How much sun?</h2>
-    <select id="sunlight">
-      <option value="full_shade">Full shade</option>
-      <option value="part_shade">Part shade</option>
-      <option value="sun-part_shade">Sun part shade</option>
-      <option value="full_sun">Full sun</option>
-    </select>
+  <header>
+    <div id="first-div">
+      <h1>Plant Professor!</h1>
+      <h2>Search for plants based on conditions specific to your garden.</h2>
+    </div>
+    <img src="../assets/a1.jpg">
+  </header>
 
-    <h2 class="title">How much watering?</h2>
-    <select id="watering">
-      <option value="frequent">Frequent</option>
-      <option value="average">Average</option>
-      <option value="minimum">Minimum</option>
-    </select>
+  <main>
+    <div class="col-33">
+      <h3>How much sun?</h3>
+      <select id="sunlight">
+        <option value="full_shade">Full shade</option>
+        <option value="part_shade">Part shade</option>
+        <option value="sun-part_shade">Sun part shade</option>
+        <option value="full_sun">Full sun</option>
+      </select>
+    </div>
 
-    <h2 class="title">What is the cycle?</h2>
-    <select id="cycle">
-      <option value="perennial">Perennial</option>
-      <option value="annual">Annual</option>
-      <option value="biennial">Biennial</option>
-      <option value="biannual">Biannual</option>
-    </select><br>
-    <button type="submit" class="button">Find the plant by criteria</button>
-  </form><br>
-  <div class="hidden" id="criteriaHidden">
+    <div class="col-33">
+      <h3>How much watering?</h3>
+      <select id="watering">
+        <option value="frequent">Frequent</option>
+        <option value="average">Average</option>
+        <option value="minimum">Minimum</option>
+      </select>
+    </div>
+
+    <div class="col-33">
+      <h3>What is the cycle?</h3>
+      <select id="cycle">
+        <option value="perennial">Perennial</option>
+        <option value="annual">Annual</option>
+        <option value="biennial">Biennial</option>
+        <option value="biannual">Biannual</option>
+      </select>
+    </div>
+
+  </main>
+  <button id="criteriaSearch" class="search-btn">Find the Plant</button>
+
+  <div id="criteriaHidden">
     <div class="search-results"></div>
     <div class="display-name"></div>
     <div class="display-map"></div>

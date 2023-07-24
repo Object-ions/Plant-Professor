@@ -82,7 +82,7 @@ function setupCheckboxListener(id) {
 
         let mapElement = document.querySelector('.display-map');
         mapElement.innerHTML = `
-        <iframe src="https://perenual.com/api/hardiness-map?key=${process.env.API_KEY}&species_id=${e.target.id}" width="100%" height="300";">
+        <iframe src="https://perenual.com/api/hardiness-map?key=${process.env.API_KEY}&species_id=${e.target.id}" width="100%" height="450";">
         </iframe>
         `;
     });
@@ -216,9 +216,9 @@ function handleFormSubmission(event) {
 
 //Event listener
 if (document.querySelector("#plantSearch")) {
-    document.querySelector("#plantSearch").addEventListener("submit", handlePlantSearch);
+    document.querySelector("#plantSearch").addEventListener("click", handlePlantSearch);
 } else if (document.querySelector("#criteriaSearch")) {
-    document.querySelector("#criteriaSearch").addEventListener("submit", handleCriteriaSearch);
+    document.querySelector("#criteriaSearch").addEventListener("click", handleCriteriaSearch);
 } else if (document.querySelector('#nurserySearch')) {
-    document.querySelector("#nurserySearch").addEventListener("submit", handleFormSubmission);
+    document.querySelector("#nurserySearch").addEventListener("click", handleFormSubmission);
 }
