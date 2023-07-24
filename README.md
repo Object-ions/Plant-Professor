@@ -10,7 +10,6 @@ Plant Professor is a web application that provides information about plants. Use
 * _Webpack_
 * _Babel_
 * _Fetch API_
-* _ExchangeRate-API_
 
 ### Table of Contents
 
