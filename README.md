@@ -2,7 +2,7 @@
 
 Plant Professor is a web application that provides information about plants. Users can search for plants by their common, growth conditions, or find nurseries near them based on their city and zipcode.
 
-## Technologies Used
+### Technologies Used:
 
 * _HTML_
 * _CSS_
@@ -10,6 +10,8 @@ Plant Professor is a web application that provides information about plants. Use
 * _Webpack_
 * _Babel_
 * _Fetch API_
+* _Bing Maps API_
+* _Perenual API_
 
 ### Table of Contents
 
@@ -30,16 +32,6 @@ Plant Professor is a web application built using HTML, CSS, and JavaScript. It c
 - \`criteria.html\`: Enables users to search for plants based on specific growth conditions such as sunlight requirements, watering needs, and plant life cycle.
 - \`zipcode.html\`: Allows users to search for nurseries near them by providing their city and zipcode.
 
-### Technologies Used:
-
-* _HTML_
-* _CSS_
-* _JavaScript_
-* _Webpack_
-* _Babel_
-* _Fetch API_
-* _Bing Maps API_
-* _Perenual API_
 
 ### Installation
 
