@@ -2,24 +2,35 @@
 <html lang="en">
 
 <head>
-  <title>Document</title>
+  <title>Plant Professor</title>
 </head>
 
 <body>
-  <a href="index.html"><button class="homeButton">back to home page</button></a>
-  <p>Search for plants by common or latin name.</p>
-  <form class="subpage" id="plantSearch">
-    <h2 class="title">What plant are you looking for?</h2>
-    <input placeholder="plant name" type="text" name="plantName" id="plantName">
-    <button type="submit" class="button">Find the plant!</button>
-  </form>
+
+  <a href="index.html" class="back-home">Home Page</a>
+  <header>
+    <div id="first-div">
+      <h2>Welcome to</h2>
+      <h1>Plant Professor!</h1>
+      <h2>This is the place for all of your plant info!</h2>
+      <p>Search a plant by name or by your specific growth conditions.<br> Also look for a nearby nursery.</p>
+    </div>
+    <img src="../assets/a1.jpg">
+  </header>
+
+  <div id="plantSearch">
+    <h3>What plant are you looking for?</h3>
+    <p>Search for plants by common or latin name.</p>
+    <input type="text" name="plantName" id="plantName">
+    <button class="search-btn">Find the plant!</button>
+  </div>
 
   <div class="hidden" id="allResults">
     <div class="search-results"></div>
     <div class="display-name"></div>
     <div class="display-map"></div>
   </div>
-  
+
 </body>
 
 </html>

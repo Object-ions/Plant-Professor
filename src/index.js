@@ -118,7 +118,6 @@ function handlePlantSearch(event) {
 
     let plantName = document.getElementById('plantName');
     let plantNameValue = plantName.value;
-    console.log(plantNameValue);
 
     //Pass the input user into the fetch API
     getPlantByName(plantNameValue);
