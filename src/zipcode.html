@@ -6,19 +6,28 @@
 </head>
 
 <body>
-  <a href="index.html"><button class="homeButton">back to home page</button></a>
-  <p>Type in your city and your 5-digit zipcode to locate nurseries near you.</p>
-  <form class="subpage" id="nurserySearch">
-    <h2 class="title">Enter your zipcode and city</h2>
-    <input placeholder="city" type="text" name="city" id="city"><br>
-    <input placeholder="zipcode" type="number" name="zipcode" id="zipcode">
-    <button type="submit" class="button">Find a nursery near you!</button>
-  </form>
-  <div class="hidden" id="zipcodeHidden">
-    <div class="display-name"></div>
+
+  <a href="index.html" class="back-home">Home Page</a>
+
+  <header>
+    <div id="first-div">
+      <h1>Plant Professor!</h1>
+      <h2>Search for plants based on conditions specific to your garden.</h2>
+    </div>
+    <img src="../assets/a1.jpg">
+  </header>
+
+  <div>
+    <h3>Enter your zipcode and city</h2>
+      <p>Type in your city and your 5-digit city zipcode to locate nurseries near you.</p>
+
+      <input placeholder="city" type="text" name="city" id="city">
+      <input placeholder="zipcode" type="number" id="zipcode">
+      <button id="nurserySearch">Find a nursery</button>
+      <div id="zipcodeHidden">
+        <div class="display-name"></div>
+      </div>
   </div>
 </body>
-
-
 
 </html>
