@@ -84,12 +84,23 @@ h5 {
   padding: 10px 0;
 }
 
-form {
-  display: flex;
-}
-
 select {
   width: 100%;
+}
+
+label {
+  color: #3f4e2f;
+  padding: 5px;
+  margin: 20px 10px;
+  /* border: 1px solid #3f4e2f; */
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  opacity: 0;
 }
 
 .col-33 {
@@ -146,12 +157,15 @@ select {
   border: #3f4e2f solid 1px;
 }
 
-input[type="checkbox"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  position: absolute;
-  opacity: 0;
+.search-results {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-items: stretch;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .display-map {
