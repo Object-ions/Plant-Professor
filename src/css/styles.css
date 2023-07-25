@@ -134,6 +134,7 @@ input[type="checkbox"] {
 .news-letter {
   background-color: #d6dfca;
   color: #3f4e2f;
+  border: 1px dashed #3f4e2f;
   width: 300px;
   padding: 12px;
   text-align: center;
