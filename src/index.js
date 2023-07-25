@@ -213,6 +213,15 @@ function handleFormSubmission(event) {
     console.log(city, zipcode);
 }
 
+
+//Event listener
+if (document.querySelector("#plantSearch")) {
+    document.querySelector("#plantSearch").addEventListener("click", handlePlantSearch);
+} else if (document.querySelector("#criteriaSearch")) {
+    document.querySelector("#criteriaSearch").addEventListener("click", handleCriteriaSearch);
+} else if (document.querySelector('#nurserySearch')) {
+    document.querySelector("#nurserySearch").addEventListener("click", handleFormSubmission);
+}
 const close = document.getElementById('close');
 const open = document.getElementById('open');
 const modal = document.getElementById('modal');
@@ -234,12 +243,3 @@ window.addEventListener('click', function (e) {
         false
     }
 });
-
-//Event listener
-if (document.querySelector("#plantSearch")) {
-    document.querySelector("#plantSearch").addEventListener("click", handlePlantSearch);
-} else if (document.querySelector("#criteriaSearch")) {
-    document.querySelector("#criteriaSearch").addEventListener("click", handleCriteriaSearch);
-} else if (document.querySelector('#nurserySearch')) {
-    document.querySelector("#nurserySearch").addEventListener("click", handleFormSubmission);
-}
