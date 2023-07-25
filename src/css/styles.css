@@ -180,3 +180,89 @@ input[type="checkbox"] {
 #criteriaHidden {
   margin-top: 20px;
 }
+
+/* modal */
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal-container.show-modal {
+  display: block;
+}
+
+.modal {
+  background-color: #fbfaf6;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  width: 400px;
+  border: #3f4e2f dashed 2px;
+  padding: 20px;
+  animation-name: modalopen;
+  animation-duration: 1s;
+}
+
+.modal-header {
+  background-color: #d6dfca;
+  color: #3f4e2f;
+}
+
+.modal-header h3 {
+  margin: 0;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-content p {
+  margin: 0;
+}
+
+.modal-form label {
+  display: block;
+  margin: 0;
+  text-align: left;
+}
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+
+.close-btn {
+  background: transparent;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 5px;
+  background-color: #d6dfca;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

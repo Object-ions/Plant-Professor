@@ -213,6 +213,28 @@ function handleFormSubmission(event) {
     console.log(city, zipcode);
 }
 
+const close = document.getElementById('close');
+const open = document.getElementById('open');
+const modal = document.getElementById('modal');
+
+//Show modal
+open.addEventListener('click', () => modal.classList.add('show-modal'));
+
+//Hide modal
+close.addEventListener('click', () => modal.classList.remove('show-modal'));
+
+//Hide modal
+close.addEventListener('click', () => modal.classList.remove('show-modal'));
+
+//Hide modal on outside click
+window.addEventListener('click', function (e) {
+    if (e.target == modal) {
+        modal.classList.remove('show-modal');
+    } else {
+        false
+    }
+})
+
 //Event listener
 if (document.querySelector("#plantSearch")) {
     document.querySelector("#plantSearch").addEventListener("click", handlePlantSearch);
