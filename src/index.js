@@ -233,7 +233,7 @@ window.addEventListener('click', function (e) {
     } else {
         false
     }
-})
+});
 
 //Event listener
 if (document.querySelector("#plantSearch")) {
