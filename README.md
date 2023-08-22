@@ -1,6 +1,9 @@
-## Plant Professor
+# Plant Professor - UI Reimagined
 
-Plant Professor is a web application that provides information about plants. Users can search for plants by their common, growth conditions, or find nurseries near them based on their city and zipcode.
+Plant Professor is a reimagined version of the [original project](https://github.com/nataliebenjes/team-plant-api.git), with a focus on enhancing the user interface. Originally contributing to the backend of the initial project, my background as a former designer compelled me to revisit the frontend. This redesigned version embodies my journey to polish the design, improve the overall user experience, and enrich my CSS expertise while integrating additional UI utilities.
+
+## Original Project
+The original Plant Professor application offered insights on plants, allowing users to search by their common names, growth conditions, and find nearby nurseries based on their city and zipcode. [Explore the original project here](https://github.com/nataliebenjes/team-plant-api.git).
 
 ### Technologies Used:
 
